@@ -1,0 +1,52 @@
+/*
+* Jennifer Cardamone
+* April 12, 2019
+* Semantic Elements
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body { /* Properties of the body */
+    background-color: floralwhite;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 85%;
+    margin: auto;
+}
+    
+header { /* Properties of the header */
+    background-color: indianred; }
+
+h1 { /* Properties of h1 */
+    text-decoration: overline underline;
+    font-size: 250%;
+    text-align: center; }
+
+main { /* Properties of the main */
+    background-color: pink;
+    text-indent: 50px }
+
+#band { /* Properties of the image */
+    float: right;
+    height: 400px; width: 400px }
+
+a:link { /*Properties of the links*/
+    background-color: white;
+    color: violet; }
+
+a:visited { /*Properties of the links*/
+    background-color: white;
+    color: mediumvioletred; }
+
+a:hover, a:focus { /*Properties of the links*/
+    background-color: violet;
+    color: white; 
+    font-size: 20px; }
+
+footer { /* Properties of the footer */
+    background-color: palevioletred; }
